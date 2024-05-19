@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="css/estilos.css">
+	<title>Avendaño Leonel</title>
+</head>
+<body>
+	<header id="header">
+    <h1>PROGRAMACION VISUAL</h1>
+    </header>
+    <br>
+    <main class="main">
+
+    <h2 class="tituloFormulario">Formulario de datos</h2>
+    
+    <form class="formulario">
+    	<label for="dni">DNI:</label>
+        <input type="number" id="dni" name="dni" required placeholder="Ingrese dni"><br><br>
+        
+        <label for="nombres">Nombres:</label>
+        <input type="text" id="nombres" name="nombres" required placeholder="Ingrese el nombre"><br><br>
+        
+        <label for="apellidos">Apellidos:</label>
+        <input type="text" id="apellidos" name="apellidos" required placeholder="Ingrese el apellido"><br><br>
+        
+        <label for="fecha_nacimiento">Fecha de Nacimiento:</label>
+        <input type="date" id="fecha_nacimiento" name="fecha_nacimiento" required><br><br>
+        
+        <label>Género:</label><br><br>
+        <input type="radio" id="femenino" name="genero" value="femenino">
+        <label for="femenino">Femenino</label><br><br>
+        <input type="radio" id="masculino" name="genero" value="masculino">
+        <label for="masculino">Masculino</label><br><br>
+        <br>
+        <label for="correo">Correo Electrónico:</label>
+        <input type="email" id="correo" name="correo" required placeholder="Ingrese correo electronico"><br><br>
+        
+        <label for="domicilio">Domicilio:</label>
+        <input type="text" id="domicilio" name="domicilio" required placeholder="Ingrese el domicilio"><br><br>
+        
+        <label for="provincia">Provincia:</label>
+        <select id="provincia" name="provincia" ><option value="Buenos Aires">Buenos Aires</option>
+  		  	<option value="Catamarca">Catamarca</option>
+    		<option value="Chaco">Chaco</option>
+   			<option value="Chubut">Chubut</option>
+    		<option value="Córdoba">Córdoba</option>
+    		<option value="Corrientes">Corrientes</option>
+    		<option value="Entre Ríos">Entre Ríos</option>
+    		<option value="Formosa">Formosa</option>
+    		<option value="Jujuy">Jujuy</option>
+    		<option value="La Pampa">La Pampa</option>
+    		<option value="La Rioja">La Rioja</option>
+    		<option value="Mendoza">Mendoza</option>
+    		<option value="Misiones">Misiones</option>
+    		<option value="Neuquén">Neuquén</option>
+    		<option value="Río Negro">Río Negro</option>
+    		<option value="Salta">Salta</option>
+    		<option value="San Juan">San Juan</option>
+    		<option value="San Luis">San Luis</option>
+    		<option value="Santa Cruz">Santa Cruz</option>
+    		<option value="Santa Fe">Santa Fe</option>
+    		<option value="Santiago del Estero">Santiago del Estero</option>
+    		<option value="Tierra del Fuego">Tierra del Fuego</option>
+    		<option value="Tucumán">Tucumán</option></select><br><br>
+        
+        <label for="telefono">Número de Teléfono Celular:</label>
+        <input type="tel" id="telefono" name="telefono"><br><br>
+
+        <div>
+        	<label id="intereses">Categorías de Interés:</label><br><br>
+    		<label >Futbol:</label>
+    		<input type="checkbox" name="intereses"><br><br>
+    		<label >Videojuegos:</label>
+    		<input type="checkbox" name="intereses"><br><br>
+    		<label >Economia:</label>
+    		<input type="checkbox" name="intereses"><br><br>
+  		</div> <br>   
+  		     
+      		<label for="sugerencias">Sugerencias:</label><br><br>
+      		<textarea id="sugerencias" required placeholder="Ingrese comentarios" name="sugerencias" rows="6" cols="50"></textarea><br><br>
+			
+	        <label for="password">Password:</label>
+      		<input type="password" id="password" name="password" required placeholder="Ingrese su contraseña">
+  			
+  			<br><br>
+        	<input type="checkbox" id="terminos" name="terminos" required>
+	        <label for="terminos">Acepto los términos y condiciones</label><br><br>
+	        
+            <input type="checkbox" id="informacion" name="informacion">
+        	<label for="informacion">Acepto recibir información relativa a la empresa</label><br><br>
+        	
+        	<button type="submit">Registrar</button>
+    </form>
+  
+    </main>
+	<br><br>
+    <footer id="pieDePagina">
+        <p>Contáctanos: leonelavendano13@gmail.com</p>
+        <p>Síguenos en nuestras redes sociales:</p>
+        <a href="https://es-la.facebook.com" target="_blank" class="facebook">Facebook</a>
+        <a href="https://x.com/" target="_blank" class="Twitter">Twitter</a>
+    </footer>
+</body>
+
+</html>
